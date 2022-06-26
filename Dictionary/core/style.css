@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("sunset2.jpg");
+    box-sizing: border-box;
+}
+.header {
+    background-color: rgba(36, 52, 143, 0.356);
+    
+    color: rgb(14, 14, 3);
+    padding: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .navbar1 {
+  position: fixed;
+  right: 200px;
+  top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  font-size: 20px;
+  color: rgb(230, 10, 10);
+  }
+  .navbar1:hover{
+      background-color: rgba(255, 255, 255, 0.322);
+      border-radius: 2px;
+  }
+  .navbar2 {
+    position: fixed;
+    right: 350px;
+    top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+    color: red;
+    }
+    
+  .search{
+      position: absolute;
+      top: 150px;
+      left: 30rem;
+  }
+  .box{
+      height: 2rem;
+      width: 15rem;
+      border-radius: 20px;
+  }
+  .btn{
+    display: inline-block;
+    text-transform:capitalize ;
+    background-color: indigo;
+    padding: .3rem 2rem;
+      position: absolute;
+      align-items: center;
+      top:4rem;
+      left: 9vh;
+
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 200;
+  }
+  .btn:hover{
+      color: black;
+  }
